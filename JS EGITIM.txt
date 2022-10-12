@@ -1,0 +1,13 @@
+JAVASCRIPT KURSU
+
+Console.log("Hello World") -> console kısmında cıktı almamıza saglar.Kelimeler arası virgul kullana
+biliyoruz.
+/* Ornek yorum satırı */ -> yorum satırına almak için kullanılır.Tek satırlık yorumlar -> //
+Console.log içerisinde matematik işlemlerini yapabiliyoruz.
+Numbers->integers(-3,-1,1,2) / float numbers(-3.5,-2.25,0.0,1.1)
+String -> 'asab','hello world'
+Booleans -> true,false
+Veri tipi kontrolü -> console.log(typeof true)
+Tanımlama yaparken var,let yada const keywordlerini kullanıyoruz.const sabittir degişmez.mesela pi
+sayısı degişemediğinden kullanabiliriz.Var cok kullanılmıyor daha çok let kullanacagız.Let degişebi
+lir sayılarda kullanıcaz.
