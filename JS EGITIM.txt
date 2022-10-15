@@ -1,5 +1,5 @@
 JAVASCRIPT KURSU
-
+1.GUN
 Console.log("Hello World") -> console kısmında cıktı almamıza saglar.Kelimeler arası virgul kullana
 biliyoruz.
 /* Ornek yorum satırı */ -> yorum satırına almak için kullanılır.Tek satırlık yorumlar -> //
@@ -11,3 +11,21 @@ Veri tipi kontrolü -> console.log(typeof true)
 Tanımlama yaparken var,let yada const keywordlerini kullanıyoruz.const sabittir degişmez.mesela pi
 sayısı degişemediğinden kullanabiliriz.Var cok kullanılmıyor daha çok let kullanacagız.Let degişebi
 lir sayılarda kullanıcaz.
+
+2.GUN
+İlkel olmayan veri türlerini karsılastırdıgımzda içerisi ve dataları aynı da olsa false sonucu verir
+Math objesini kullanarak çeşitli işlemleri yapabiliyoruz.Örnegin ;
+console.log(Math.max(1,2,5,7,8,2)) -> max rakam olan 8 i bize sonuc olarak döndürüyor.
+let randomNumber = Math.floor(Math.random() * 11) -> bize 0 ile 10 arasında rastgele bir sayı
+döndürüyor her seferinde.
+elimizde uzun bir yazı varsa ve sonraki cümlenin aşagı satırda başlamasını istiyorsak biten cümle
+nin sonuna \ koyarız.Örnek verirsek : let paragrapf = "merhaba bu uzun bir yazı o yüzden bir kısmı\
+asagıda devam etmeli."
+`` -> bu iki çentik arasında degerleri farklı şekilde kullanabiliyoruz ve oldukca pratik.incelemek
+gerekirse -> let fullName = `${a} + ${b} = ${a+b}`
+
+
+
+
+
+
