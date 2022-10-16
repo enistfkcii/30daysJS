@@ -24,6 +24,16 @@ asagıda devam etmeli."
 `` -> bu iki çentik arasında degerleri farklı şekilde kullanabiliyoruz ve oldukca pratik.incelemek
 gerekirse -> let fullName = `${a} + ${b} = ${a+b}`
 
+3.GUN
+== ile === arasındaki fark == -> degerlerinin eşit olup olmadıgını kontrol eder. 
+=== -> tamamen denk olup olmadıgına bakarız.hem degeri hem de veri türü aynı olmalıdır.
+Kosul ifadesi -> KOSUL ? TRUE(true olması halinde olacak) : FALSE(false olması halinde olacak)
+windows methodları =>
+alert('text') -> ekrana uyarı kutusu ve butonu cıkartır.
+prompt() -> input girilebilecek bir metin kutusu cıkartır ekrana.
+confirm() -> dogrulama isteyen bir kutu yollar kullanıcı ekranına
+Date Object => 
+
 
 
 
