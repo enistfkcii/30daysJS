@@ -34,6 +34,23 @@ prompt() -> input girilebilecek bir metin kutusu cıkartır ekrana.
 confirm() -> dogrulama isteyen bir kutu yollar kullanıcı ekranına
 Date Object => 
 
+4.GUN
+Koşullar => 
+if,elseif,switch,ternary vs
+switch case yapısı -> 
+switch(value){
+  case 5 :
+  console.log("Sayi 5 dir")
+  break
+  case 8 :
+  console.log("Sayi 8 dir")
+  break
+  default :
+  console.log("Sayi bunların hiçbiri degil")
+}
+ternary yapısı ->
+KOSUL ? TRUE : FALSE şeklinde kullanıyoruz.
+
 
 
 
