@@ -51,6 +51,19 @@ switch(value){
 ternary yapısı ->
 KOSUL ? TRUE : FALSE şeklinde kullanıyoruz.
 
+5.GUN
+DIZILER =>
+sayılar = [1,2,"Enis"] veya sayılar2 = Array(3).fill(5) => fill arrayin içine koyacagımız sayıyı
+eklememizi saglar.
+concat => iki diziyi birleştirmemizi saglar. sayılar.concat(sayilar2) gibi
+includes -> dizide belirtilen eleman varsa true döner.sayilar.includes(1)
+push -> dizinin sonuna belirtilen elemanı ekler. sayılar.push(3)
+pop -> dizinin son elemanını siler. sayılar.pop()
+shift -> dizinin en başındaki elemanı siler. sayılar.shift()
+unshift -> dizinin en başına eleman eklememizi saglar. sayılar.unshift(4)
+Dizilerde sıralama => 
+dizi.sort -> küçükten büyüğe sıralar ve a dan z ye sıralar
+dizi.reverse -> tam tersi büyükten küçüğe veya z dan aya sıralar
 
 
 
