@@ -65,6 +65,21 @@ Dizilerde sıralama =>
 dizi.sort -> küçükten büyüğe sıralar ve a dan z ye sıralar
 dizi.reverse -> tam tersi büyükten küçüğe veya z dan aya sıralar
 
+6.GUN
+DONGULER =>
+*for döngüsü => for(let i=0; i<=5; i++){
+console.log(i) gibi
+}
+*while döngüsü => while(i<=5){
+console.log(i)
+i++ gibi
+}
+*do while => while dan tek farkı kosul saglansa da saglanmasa da bir kere çalışır.
+*for(sayi of sayilar){
+code
+} => foreach yapısı bir nevi
+*break komutu => döngüden cıkmak istendiğinde kullanabiliyoruz.
+
 
 
 

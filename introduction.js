@@ -51,9 +51,9 @@
 // }
 // let value = prompt("İsim giriniz")
 // value.length >= 5 ? console.log("Geçerli bir isim") : console.log("En az 5 karakterden oluşan bir isim giriniz")
-let names = Array(2).fill(5)
-console.log(names)
-let names2 = ["Enis","Tüfekci",25,1997]
+// let names = Array(2).fill(5)
+// console.log(names)
+// let names2 = ["Enis","Tüfekci",25,1997]
 // console.log(names2) // bu daha sık kullanılıyor.
 // console.log(names2.indexOf("Tüfekci"),names2.length)
 // console.log(names2[2])
@@ -72,9 +72,39 @@ let names2 = ["Enis","Tüfekci",25,1997]
 // console.log(names2)
 // names2.unshift("Naim")
 // console.log(names2)
-const numbers = [4,2,1,7,8,3]
-const harfler = ['debug','ocean','manuel','arcade']
-console.log(numbers.sort())
-console.log(harfler.sort())
-console.log(numbers.reverse())
-console.log(harfler.reverse())
+// const numbers = [4,2,1,7,8,3]
+// const harfler = ['debug','ocean','manuel','arcade']
+// console.log(numbers.sort())
+// console.log(harfler.sort())
+// console.log(numbers.reverse())
+// console.log(harfler.reverse())
+// for(let i=0;i<100;i++){
+//     console.log(2*i)
+// }
+// let liste = ["Enis","Burak","Berkay","Volkan","Alper"]
+// for(let y=0;y<liste.length;y++){
+//     console.log(liste)
+// }
+// let sayilar = [1,4,7]
+// for(let a=0;a<sayilar.length;a++){
+//     sayilar.push(a*a)
+//     a++
+// }
+// console.log(sayilar)
+let harfler = ["a","b","c","z","x"]
+// let i=0;
+// while(i<harfler.length){
+//     if(harfler[i] =="z"){
+//         break;
+//     }
+
+//     console.log(`Harfimiz :${harfler[i]}`)
+//     i++
+// }
+// for(harf of harfler){
+
+//     if(harf=="c"){
+//         console.log(harf)
+//         continue
+//     }
+// }
