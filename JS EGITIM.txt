@@ -80,6 +80,27 @@ code
 } => foreach yapısı bir nevi
 *break komutu => döngüden cıkmak istendiğinde kullanabiliyoruz.
 
+7.GUN
+FONKSIYONLAR =>
+Kodları temiz ve kolay,yeniden kullanılabilir ve test etmesi kolay hale getiririz fonksiyonlar saye
+sinde.
+Fonksiyon tanımlama -> function functionName(){
+Code....
+}
+call vs invoke => 
+function test(){} adında bir fonksiyonumuz var.Sadece cagırcaksak su sekilde => test()
+invoke etmek istersek => function invoker(func){
+func()
+}
+invoker(test) => bu şekilde de dolaylı yoldan calıstırmıs oluyoruz.
+
+
+
+
+
+
+
+
 
 
 

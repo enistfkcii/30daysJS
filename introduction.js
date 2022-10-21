@@ -91,7 +91,7 @@
 //     a++
 // }
 // console.log(sayilar)
-let harfler = ["a","b","c","z","x"]
+// let harfler = ["a","b","c","z","x"]
 // let i=0;
 // while(i<harfler.length){
 //     if(harfler[i] =="z"){
@@ -108,3 +108,28 @@ let harfler = ["a","b","c","z","x"]
 //         continue
 //     }
 // }
+// function girisYazısı(){
+//     console.log("Hoşgeldin bu giriş yazısı.")
+// }
+// girisYazısı()
+
+    // function Topla(a,b){
+    //     console.log(a+b)
+    // }
+
+    // Topla(7,2)
+
+    // function Topla(){
+    //     let total = 0
+    //     for(let i=0; i<arguments.length; i++){
+    //         total += arguments[i]
+    //     }
+    //     return total
+    // }
+    // console.log(Topla(4,5,6,7))
+
+    // const carp = (a,b=4) => {
+    //     return a*b
+    // }
+    // console.log(carp(7,11)) // arrow function
+    // console.log(carp(7)) // ikinci parametre yok o yüzden varsayılan degeri aldı
