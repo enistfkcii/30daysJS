@@ -1,0 +1,18 @@
+<!-- Regular Expressions =>-->
+<html>
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Enıs Tufekcı | Day 12 JS </title>
+    </head>
+    <body>
+        <p id="result"></p>
+        <p id="result2"></p>
+        <p id="result3"></p>
+        <script>
+            var text = "Javascript öğrenmek için kursları takip ediyorum.";
+            document.getElementById('result').innerHTML = text.search(/javascript/);
+            document.getElementById('result2').innerHTML = text.search(/Javascript/);
+            document.getElementById('result3').innerHTML = text.search(/javascript/i);
+        </script>
+    </body>
+</html>

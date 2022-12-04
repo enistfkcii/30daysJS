@@ -178,6 +178,30 @@ Spread => const nums = [1,2,3,4,5,6] , let [num1,num2,num3,..._nums] = nums; bu 
 kalan sayıları bir _nums dizisinin içine doldurur. ..._nums baştaki 3 nokta rest operatorüdür. Genel kullanılan method ise
 Spread operatörü kapsamındadır. 
 
+JS 12.GUN REGULAR EXPRESSIONS
+Arama deseni,metin arama ve metin değiştirme işlemler için kullanılabilir.
+1-) i => normalde text.search() yaparken baş harfi büyük küçük uyumlu olmazsa arama yaparken bulamıyor
+ve -1 değeri dönüyor.Bunun çözümü olarak =>
+text.search(/javascript/) yerine (/javascript/i) kullanarak bu sorunu çözüyoruz.
+2-) g=> belirtilen metnin tamamında arama yapılacagını belirtir.
+3-) m => birden fazla satırdan olusan metinlerde arama yapmak için kullanılır.
+4-)test => bir dizide eşleşme olup olmadıgını kontrol eder. text2.test(text1) true veya false döner
+5-) match => tüm eşleşmeleri içeren bir dizi döndürür.
+6--)search => bir dizide eşleşme olup olmadıgını kpntrol eder ve eşleşme yoksa -1 döner varsa eşleş
+me dizinini döner.
+7-) replace => bir dizede eşleşme araması yürütür ve eşleşen elemanı istenen elemanla değiştirir.
+text1.replace(/pyton,'javascript') gibi
+[ac] => a veya b veya c demek. [az] => a dan z ye herhangi bir harf demek. \D => dizenin rakam içer
+mediği eşleşme.
+Regular Expressionda kaçış karakteri \ dir. mesela /\d/g gibi
+
+
+
+
+
+
+
+
 
 
 
