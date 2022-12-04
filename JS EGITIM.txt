@@ -94,6 +94,114 @@ func()
 }
 invoker(test) => bu şekilde de dolaylı yoldan calıstırmıs oluyoruz.
 
+JS 8.GUN KAPSAM VE NESNELER
+
+Kapsam(SCOPE) => 
+1.Window Scope => var,let ve const ile tanımlamayıp düz şekilde tanımlarsan bu sınıfa girer ve her pencereden erişilebilir hale gelir.
+
+2.Global Scope => Fonksiyonun dışında iken bütün sayfada geçerlidir.Fonksiyon içinde ise sadece fonksiyon içini kapsar.
+
+3.Local Scope  => Belli bir kapsam cercevesinde eriştiğimiz değişkenleri kapsar.
+
+Object => Bir nesne oluşturmak için -> const person = {};
+Nesneyi değerlerle oluşturmak -> const person = {
+firstName : 'Enis',
+surName : 'Tüfekci',
+age : 25,
+skills : ['HTML','CSS','JS','C#'],
+isMarried : false
+} 
+Nesnedeki değerlere erişmek -> Mesela person.FirstName;
+Nesneler değiştirilebilir,içeriği silinebilir veya içine veri eklenebilir.
+
+JS 9.GUN HIGH ORDER FUNCTION
+
+Higher Order Function => parametre olarak fonksiyon alıyolar veya geriye fonksiyon döndürüyolar.
+
+CallBack => Parametre olarak geçen fonksiyonlardır. let sum=0; arr.forEach(function(element){sum+=element}) gibi
+
+SettingTime => js de bazı işlemleri hangi aralıkta calısacagını ayarlayabiliyoruz.
+a->SetInterval => Belli zaman aralıklarında işlemi devam ettirebilmek için bunu kullanıyoruz.İki parametre alıyor.İlki callback ikincisi duration(mili saniye türünden)
+function sayHello(){
+console.log('Hello')
+}
+setInterval(sayHello,1000); -> Her 1 saniyede bir sayHello fonksiyonunu cagırır.
+b->SetTimeOut => Gelecekte bir kod blogunu calıstırmakta kullanıyoruz.
+function sayHello(){
+console.log('Hello')
+}
+setInterval(sayHello,1000);  -> 1 saniye sonra sayHello fonksiyonu cagrılır ve bir daha cagırılmaz.
+Bu işlemleri iptal etmek için de önlerine clear getiriyoruz.Mesela;
+const interval = setInterval(sayHello,1000);
+setTimeOut(() =>{
+clearInterval(interval)
+console.log('İnterval işlemi iptal edildi.')
+},5000)
+
+Functional Programming => normal döngüler yazmak yerine çeşitli yerleşik methodlar kullanıyoruz.
+1-foreach => her bir dizi elemanını tekrarlamak için kullanıyoruz.const numbers= [1,2,3,4,5]; numbers.forEach(num => console.log(num));
+2-map => foreache cok benzer. let users =[
+{
+id:1,
+name:"enis",		=>   users = users.map(user =>{if(user.id ===2){user.name = 'Aybuke'}return user})
+age:25
+},
+{
+id:2,
+name:"naim",
+age:34
+}
+]
+
+3-filter => belli kriterlere göre filtrelememizi sağlar. => numbers.filter(number=>number>3)
+4-reduce => numbers.reduce((oldValue,currentValue) => {return oldValue + currentValue},0)
+5-every => her bir elemanın bizim kosulumuzu karsılayıp karsılamadıgına bakar. => users.every(user => user.gender ===1)
+6-some => Everyden tek farkı elemanlardan biri kosulu saglıyorsa true döner.
+7-find => koşula ilk uyan elemanı bize döndürür. numbers.find(number => number >2)
+8-findIndex => Kosula ilk uyan elemanın indexini bize döndürür.
+9-sort => büyükten küçüğe veya küçükten büyüğe sıralamamıza olanak saglıyor. names.sort , numaralar.sort((a,b) => a-b) => int larda sıralama yaparken bunu yapmamız gerekiyor.
+
+JS 10.GUN  SET/MAP =>
+SET => Set ve Map aslında Array ve Objecte benziyorlar.Setin arrayden farkı sette her bir eleman unique olmalı.Mapin arrayden farkı ise mapde keyleri her türlü veriden oluş
+turabiliriz.Set sadece benzersiz elemanları içerebilir.const companies = new Set();
+companies.add('Google'); seklinde eklenebiliyor. companies.delete('Google') ile eleman siliniyor.companies.clear() ile içini temizliyoruz.
+const numbers = [5,3,2,5,6,1,3] , const setOfNumbers = new Set(numbers); => tekrar eden ifadenin tekrar edenini getirmiyor sadece benzersiz şekilde geliyor.{5,3,2,6,1} gibi
+MAP => map.set() eleman eklemek için kullanıyoruz.map.set('1','s'),map.set(1,'ahmet') gibi 
+map.get('1') ile istediğimiz elemana ait degeri getirir.
+map.size() ile uzunlugunu buluyoruz.
+
+JS 11.GUN DESTRUCTİNG / SPREAD / REST
+Destructuring => Dizilerin ve objeleri bazı elemanlarını cıkartıp kullanmamıza olanak saglar.
+const numbers = [10,12,14]; ilk elemanını almak istediğimizde numbers[0] ı kullanıyoruz normalde.
+const [] = numbers -> const[number1,number2] = numbers dediğimizde number1 -> 10 number2 -> 12 oluyor.
+Spread => const nums = [1,2,3,4,5,6] , let [num1,num2,num3,..._nums] = nums; bu operatörle ilk 3 sayıyı atadıktan sonra 
+kalan sayıları bir _nums dizisinin içine doldurur. ..._nums baştaki 3 nokta rest operatorüdür. Genel kullanılan method ise
+Spread operatörü kapsamındadır. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
